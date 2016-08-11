@@ -4,7 +4,7 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
         <style>
             html, body {
                 height: 100%;
@@ -34,6 +34,13 @@
                 font-size: 96px;
             }
         </style>
+        <script>
+            SC.initialize({
+                client_id: 'e12da13ef16b1aaae780ac9b584b0a27',
+                redirect_uri: '/auth/sound-cloud/callback'
+            });
+            SC.connect();
+        </script>
     </head>
     <body>
         <div class="container">
