@@ -159,6 +159,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Njasm\Laravel\Soundcloud\SoundcloudProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        AdamWathan\EloquentOAuthL5\EloquentOAuthServiceProvider::class,
 
     ],
 
@@ -210,6 +211,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Soundcloud' => Njasm\Laravel\Soundcloud\Facades\Soundcloud::class,
+        'SocialAuth' => AdamWathan\EloquentOAuth\Facades\OAuth::class
 
     ],
 

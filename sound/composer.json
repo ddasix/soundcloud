@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "5.2.*",
         "laravel/socialite": "^2.0",
-        "njasm/laravel5-soundcloud": "dev-master"
+        "njasm/laravel5-soundcloud": "dev-master",
+        "adamwathan/eloquent-oauth-l5": "^0.5.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

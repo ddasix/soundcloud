@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
-use Socialite;
+use SocialAuth;
 
 class AuthController extends Controller
 {
@@ -80,7 +80,7 @@ class AuthController extends Controller
      */
     public function redirectToProvider()
     {
-        return Socialite::driver('soundcloud')->redirect();
+        return SocialAuth::authorize('soundcloud');
     }
 
     /**
@@ -90,7 +90,19 @@ class AuthController extends Controller
      */
     public function handleProviderCallback()
     {
-        $user = Socialite::driver('soundcloud')->user();
+        try {
+            SocialAuth::login('soundcloud');
+        } catch (ApplicationRejectedException $e) {
+            // User rejected application
+        } catch (InvalidAuthorizationCodeException $e) {
+            // Authorization was attempted with invalid
+            // code,likely forgery attempt
+        }
+
+        // Current user is now available via Auth facade
+        $user = Auth::user();
+
+        return Redirect::intended();
 
         // $user->token;
     }
