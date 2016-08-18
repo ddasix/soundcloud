@@ -81,7 +81,7 @@ class AuthController extends Controller
      */
     public function redirectToProvider()
     {
-        return SocialAuth::authorize('facebook');
+        return SocialAuth::authorize('soundcloud');
     }
 
     /**
@@ -92,6 +92,8 @@ class AuthController extends Controller
     public function handleProviderCallback()
     {
 
+        // Automatically log in existing users
+        // or create a new user if necessary.
         SocialAuth::login('soundcloud');
 
         // Current user is now available via Auth facade

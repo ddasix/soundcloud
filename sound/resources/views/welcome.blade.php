@@ -34,19 +34,6 @@
                 font-size: 96px;
             }
         </style>
-        <script>
-            SC.initialize({
-                client_id: 'e12da13ef16b1aaae780ac9b584b0a27',
-                redirect_uri: '/auth/sound-cloud/callback'
-            });
-            SC.connect().then(function(){
-                return SC.put('/me/followings/183');
-            }).then(function(user){
-                alert('You are now following ' + user.username);
-            }).catch(function(error){
-                alert('Error: ' + error.message);
-            });;
-        </script>
     </head>
     <body>
         <div class="container">

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99c60840-e1a9-42dd-b051-76ab1b234f73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
     </list>
     <ignored path="soundcloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +27,21 @@
       <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+            <state relative-caret-position="622">
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
               <folding>
                 <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,13 +89,13 @@
         <option value="C:/xampp7/apache/conf/httpd.conf" />
         <option value="$PROJECT_DIR$/sound/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php" />
-        <option value="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/sound/config/app.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/routes.php" />
         <option value="C:/xampp7/apache/conf/extra/httpd-ssl.conf" />
         <option value="C:/xampp7/apache/conf/extra/httpd-vhosts.conf" />
         <option value="$PROJECT_DIR$/sound/.env" />
         <option value="$PROJECT_DIR$/sound/config/eloquent-oauth.php" />
+        <option value="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
       </list>
     </option>
@@ -302,12 +313,12 @@
       <workItem from="1470920282196" duration="3897000" />
       <workItem from="1471431722022" duration="9000" />
       <workItem from="1471432634768" duration="6375000" />
-      <workItem from="1471519319370" duration="2513000" />
+      <workItem from="1471519319370" duration="2831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12794000" />
+    <option name="totallyTimeSpent" value="13112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -474,6 +485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -657,10 +662,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+        <state relative-caret-position="622">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
           <folding>
             <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
