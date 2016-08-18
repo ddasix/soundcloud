@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                {{ print_r(Auth::user())  }}
+                {{ print_r(SocialAuth::user())  }}
                 <div class="title">Laravel 5</div>
             </div>
         </div>
