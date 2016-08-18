@@ -99,11 +99,11 @@ class AuthController extends Controller
 
         try {
             SocialAuth::login('soundcloud',function($user, $details) {
-                dd($details);
-                $user->nickname = $details->nickname;
-                $user->name = $details->full_name;
-                $user->profile_image = $details->avatar;
-                $user->save();
+//                dd($details);
+//                $user->nickname = $details->nickname;
+//                $user->name = $details->full_name;
+//                $user->profile_image = $details->avatar;
+//                $user->save();
             });
         } catch (ApplicationRejectedException $e) {
             // User rejected application
@@ -114,7 +114,7 @@ class AuthController extends Controller
 
         // Current user is now available via Auth facade
         $user = Auth::user();
-        dd($user);
+      //  dd($user);
 
         return Redirect::intended();
     }
