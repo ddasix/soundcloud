@@ -10,6 +10,7 @@ use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 
 use SocialAuth;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
