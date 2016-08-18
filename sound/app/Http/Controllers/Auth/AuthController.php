@@ -99,11 +99,11 @@ class AuthController extends Controller
 
         try {
             SocialAuth::login('soundcloud',function($user, $details) {
-//                dd($details);
-//                $user->nickname = $details->nickname;
-//                $user->name = $details->full_name;
-//                $user->profile_image = $details->avatar;
-//                $user->save();
+                $user->nickname = $details->nickname;
+                $user->name = $details->full_name;
+                $user->profile_image = $details->avatar;
+                $user->email = $details->email;
+                $user->save();
             });
         } catch (ApplicationRejectedException $e) {
             // User rejected application

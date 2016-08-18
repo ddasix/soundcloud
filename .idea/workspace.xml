@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c60840-e1a9-42dd-b051-76ab1b234f73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
     </list>
     <ignored path="soundcloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="100" column="22" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="22" />
+            <state relative-caret-position="394">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
@@ -138,9 +138,9 @@
         <option value="$PROJECT_DIR$/sound/.env" />
         <option value="$PROJECT_DIR$/sound/config/eloquent-oauth.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
       </list>
     </option>
   </component>
@@ -405,12 +405,12 @@
       <workItem from="1470920282196" duration="3897000" />
       <workItem from="1471431722022" duration="9000" />
       <workItem from="1471432634768" duration="6375000" />
-      <workItem from="1471519319370" duration="4354000" />
+      <workItem from="1471519319370" duration="4606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14635000" />
+    <option name="totallyTimeSpent" value="14887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="158" width="1932" height="1056" extended-state="0" />
@@ -770,16 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -793,6 +783,16 @@
         <state relative-caret-position="660">
           <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
