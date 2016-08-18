@@ -8,9 +8,13 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
+use SocialNorm\Exceptions\ApplicationRejectedException;
+use SocialNorm\Exceptions\InvalidAuthorizationCodeException;
+
 
 use SocialAuth;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
 class AuthController extends Controller
 {
@@ -93,12 +97,23 @@ class AuthController extends Controller
     public function handleProviderCallback()
     {
 
-        // Automatically log in existing users
-        // or create a new user if necessary.
-        SocialAuth::login('soundcloud');
+        try {
+            SocialAuth::login('soundcloud',function($user, $details) {
+                $user->nickname = $details->nickname;
+                $user->name = $details->full_name;
+                $user->profile_image = $details->avatar;
+                $user->save();
+            });
+        } catch (ApplicationRejectedException $e) {
+            // User rejected application
+        } catch (InvalidAuthorizationCodeException $e) {
+            // Authorization was attempted with invalid
+            // code,likely forgery attempt
+        }
 
         // Current user is now available via Auth facade
         $user = Auth::user();
+        dd($user);
 
         return Redirect::intended();
     }
