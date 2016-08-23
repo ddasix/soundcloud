@@ -23,7 +23,7 @@ class SoundCloudController extends Controller
         $user = OauthIdentities::find($authuser->id);
 
         $client = new Client;
-        dd(config('soundcloud.client_id'));
+        dd(config('eloquent-oauth.soundcloud.client_id'));
 
         $r = $client->get("http://api.soundcloud.com/playlists/".$user->provider_user_id."?client_id=".config('soundcloud.client_id'));
         dd($r);
