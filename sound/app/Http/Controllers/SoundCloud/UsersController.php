@@ -1,16 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\SoundCloud;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Http\Response;
 use Auth;
 use App\OauthIdentities;
 
 use GuzzleHttp\Client;
+use Psy\Util\Json;
 
-class SoundCloudController extends Controller
+class UsersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -24,8 +26,8 @@ class SoundCloudController extends Controller
 
         $client = new Client;
 
-        $r = $client->get("https://api.soundcloud.com/users/".$user->provider_user_id);
-        dd($r);
+        $r = $client->get("https://api.soundcloud.com/users/".$user->provider_user_id."?client_id=".config('eloquent-oauth.providers.soundcloud.client_id'));
+        return Response::json($r);
     }
 
     /**

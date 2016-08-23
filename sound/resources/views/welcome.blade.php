@@ -44,7 +44,7 @@
         <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script>
-            $.get("/soundcloud", function(data){
+            $.get("/soundcloud/users", function(data){
                 console.log(data);
             });
         </script>
