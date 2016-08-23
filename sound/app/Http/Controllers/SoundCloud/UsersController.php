@@ -28,7 +28,7 @@ class UsersController extends Controller
         $client = new Client;
 
         $r = $client->get("https://api.soundcloud.com/users/".$user->provider_user_id."?client_id=".config('eloquent-oauth.providers.soundcloud.client_id'));
-
+        dd($r->getBody());
         return Response::json($r->getBody());
     }
 
