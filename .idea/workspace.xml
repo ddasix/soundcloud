@@ -92,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloud/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="e#51#79#0#PHP" expanded="true" />
               </folding>
@@ -487,12 +487,12 @@
       <workItem from="1471431722022" duration="9000" />
       <workItem from="1471432634768" duration="6375000" />
       <workItem from="1471519319370" duration="5809000" />
-      <workItem from="1471953145966" duration="7914000" />
+      <workItem from="1471953145966" duration="8074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24004000" />
+    <option name="totallyTimeSpent" value="24164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1932" height="1056" extended-state="0" />
@@ -940,7 +940,7 @@
     <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloud/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="e#51#79#0#PHP" expanded="true" />
           </folding>
