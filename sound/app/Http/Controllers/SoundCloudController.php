@@ -24,7 +24,7 @@ class SoundCloudController extends Controller
 
         $client = new Client;
 
-        $r = $client->get("http://api.soundcloud.com/playlists/".$user->provider_user_id."?client_id=".env('soundcloud.client_id'));
+        $r = $client->get("http://api.soundcloud.com/playlists/".$user->provider_user_id."?client_id=".config('soundcloud.client_id'));
         dd($r);
     }
 
