@@ -29,7 +29,7 @@ class UsersController extends Controller
 
         $response = $client->get('/users/'.$user->provider_user_id, [
             'query' => ['client_id' => config('eloquent-oauth.providers.soundcloud.client_id')]
-        ])->send();
+        ]);
 
         print_r($response);
         return Response::json($response->getBody());
