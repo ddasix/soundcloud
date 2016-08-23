@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use Soundcloud;
-
 class SoundCloudController extends Controller
 {
     /**
@@ -17,7 +15,7 @@ class SoundCloudController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
