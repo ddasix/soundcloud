@@ -4,7 +4,6 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
         <style>
             html, body {
                 height: 100%;
@@ -42,10 +41,12 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
-    <script>
-        $.get("/soundcloud", function(data){
-            console.log(data);
-        });
-    </script>
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+            $.get("/soundcloud", function(data){
+                console.log(data);
+            });
+        </script>
     </body>
 </html>
