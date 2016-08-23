@@ -16,5 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('soundcloud', 'SoundCloudController');
+
 Route::get('auth/sound-cloud', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/sound-cloud/callbacks', 'Auth\AuthController@handleProviderCallback');
