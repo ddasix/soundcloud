@@ -99,6 +99,7 @@ class AuthController extends Controller
 
         try {
             SocialAuth::login('soundcloud',function($user, $details) {
+                dd($details);
                 $user->id = $details->id;
                 $user->nickname = $details->nickname;
                 $user->name = $details->full_name;
