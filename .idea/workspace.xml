@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c60840-e1a9-42dd-b051-76ab1b234f73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php" afterPath="$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php" />
     </list>
     <ignored path="soundcloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoundCloudController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SoundCloudController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -141,8 +141,8 @@
         <option value="$PROJECT_DIR$/sound/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/sound/app/OauthIdentities.php" />
         <option value="$PROJECT_DIR$/sound/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php" />
         <option value="$PROJECT_DIR$/sound/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php" />
       </list>
     </option>
   </component>
@@ -437,12 +437,12 @@
       <workItem from="1471431722022" duration="9000" />
       <workItem from="1471432634768" duration="6375000" />
       <workItem from="1471519319370" duration="5809000" />
-      <workItem from="1471953145966" duration="4599000" />
+      <workItem from="1471953145966" duration="4760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20689000" />
+    <option name="totallyTimeSpent" value="20850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1932" height="1056" extended-state="0" />
@@ -866,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -891,6 +881,16 @@
         <state relative-caret-position="684">
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
