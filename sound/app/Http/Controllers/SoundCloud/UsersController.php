@@ -25,11 +25,14 @@ class UsersController extends Controller
         $authuser = Auth::user();
         $user = OauthIdentities::find($authuser->id);
 
-        $client = new Client;
+        $client = new Client(['base_uri' => 'https://api.soundcloud.com']);
 
-        $r = $client->get("https://api.soundcloud.com/users/".$user->provider_user_id."?client_id=".config('eloquent-oauth.providers.soundcloud.client_id'));
-        dd($r->getBody());
-        return Response::json($r->getBody());
+        $response = $client->request('GET', '/users/'.$user->provider_user_id, [
+            'query' => ['client_id' => config('eloquent-oauth.providers.soundcloud.client_id')]
+        ]);
+
+        dd($response->getBody());
+        return Response::json($response->getBody());
     }
 
     /**
