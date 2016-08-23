@@ -45,6 +45,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="180" column="13" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,18 +62,6 @@
               <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sound/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +80,8 @@
       <file leaf-file-name="SoundCloudController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="475">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -111,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sound/app/User.php">
+      <file leaf-file-name="eloquent-oauth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound/config/eloquent-oauth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="703">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-513">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -439,12 +447,12 @@
       <workItem from="1471431722022" duration="9000" />
       <workItem from="1471432634768" duration="6375000" />
       <workItem from="1471519319370" duration="5809000" />
-      <workItem from="1471953145966" duration="5365000" />
+      <workItem from="1471953145966" duration="5622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21455000" />
+    <option name="totallyTimeSpent" value="21712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1932" height="1056" extended-state="0" />
@@ -485,14 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sound/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -806,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="180" column="13" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -876,14 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/config/eloquent-oauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -892,10 +876,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sound/config/eloquent-oauth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="180" column="13" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sound/app/Http/Controllers/SoundCloudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="475">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
