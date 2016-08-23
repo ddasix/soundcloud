@@ -42,5 +42,10 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
+    <script>
+        $.get("/soundcloud", function(data){
+            console.log(data);
+        });
+    </script>
     </body>
 </html>
