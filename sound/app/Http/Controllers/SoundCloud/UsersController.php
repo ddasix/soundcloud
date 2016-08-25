@@ -13,8 +13,10 @@ use App\OauthIdentities;
 use GuzzleHttp\Client;
 use Psy\Util\Json;
 
+
 class UsersController extends Controller
 {
+    
     /**
      * Display a listing of the resource.
      *
@@ -24,15 +26,23 @@ class UsersController extends Controller
     {
         $authuser = Auth::user();
         $user = OauthIdentities::find($authuser->id);
+        $client = new Client();
+        $response = null;
+        
+        try {
 
-        $client = new Client(['base_uri' => 'https://api.soundcloud.com']);
+            $response = $client->request('GET','https://api.soundcloud.com/users/'.$user->provider_user_id.'/playlists', [
+                'query' => ['client_id' => config('eloquent-oauth.providers.soundcloud.client_id')]
+            ]);
+            
+        } catch (RequestException $e) {
+            echo Psr7\str($e->getRequest());
+            if ($e->hasResponse()) {
+                echo Psr7\str($e->getResponse());
+            }
+        }
 
-        $response = $client->get('/users/'.$user->provider_user_id, [
-            'query' => ['client_id' => config('eloquent-oauth.providers.soundcloud.client_id')]
-        ]);
-
-        print_r($response);
-        return Response::json($response->getBody());
+        return Response::json($response->getBody()->getContents());
     }
 
     /**

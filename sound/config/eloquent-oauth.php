@@ -39,7 +39,7 @@ return [
         'soundcloud' => [
             'client_id' => 'e12da13ef16b1aaae780ac9b584b0a27',
             'client_secret' => '5e1b9fb6238db81095a254e0db37ac79',
-            'redirect_uri' => 'https://aliolio.com/auth/sound-cloud/callbacks',
+            'redirect_uri' => 'https://soundcloud-hyo-sig.c9users.io/auth/sound-cloud/callbacks',
             'scope' => [],
         ],
     ],

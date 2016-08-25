@@ -37,15 +37,15 @@
     <body>
         <div class="container">
             <div class="content">
-                {{ print_r(Auth::user())  }}
                 <div class="title">Laravel 5</div>
+                <div id="user-info"></div>
             </div>
         </div>
         <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script>
-            $.get("/soundcloud/users", function(data){
-                console.log(data);
+            $.getJSON("/soundcloud/users", function(data){
+                $("#user-info").html(data);
             });
         </script>
     </body>

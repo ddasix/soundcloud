@@ -106,6 +106,8 @@ class AuthController extends Controller
                 $user->email = $details->email;
                 $user->save();
             });
+            
+            
         } catch (ApplicationRejectedException $e) {
             // User rejected application
         } catch (InvalidAuthorizationCodeException $e) {
