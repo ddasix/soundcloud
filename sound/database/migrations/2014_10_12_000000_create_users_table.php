@@ -18,7 +18,12 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->rememberToken();
+            $table->integer('grade')->default(1);
             $table->timestamps();
+            
+            
+            $table->foreign('grade')
+              ->references('id')->on('grades');
         });
     }
 

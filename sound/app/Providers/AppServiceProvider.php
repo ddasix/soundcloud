@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Validator;
+
+use App\Post;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Validator::extend('maxpost', function($attribute, $value, $parameters, $validator) {
+            $count = Post::whereBetween('created_at',[date('Y-m-d').' 00:00:01',date('Y-m-d').' 23:59:59'])->count();
+            return $count <= $parameters[0];
+        });
     }
 
     /**

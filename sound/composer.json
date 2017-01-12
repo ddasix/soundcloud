@@ -10,7 +10,8 @@
         "laravelcollective/html": "5.2.*",
         "laravel/socialite": "^2.0",
         "njasm/laravel5-soundcloud": "dev-master",
-        "adamwathan/eloquent-oauth-l5": "^0.5.1"
+        "adamwathan/eloquent-oauth-l5": "^0.5.1",
+        "yadakhov/insert-on-duplicate-key": "^0.0.9"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

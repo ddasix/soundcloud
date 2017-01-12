@@ -74,6 +74,7 @@ class AuthController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'grade' => 1,
             'password' => bcrypt($data['password']),
         ]);
     }
@@ -117,7 +118,7 @@ class AuthController extends Controller
 
         // Current user is now available via Auth facade
         $user = Auth::user();
-      //  dd($user);
+
 
         return Redirect::intended();
     }
